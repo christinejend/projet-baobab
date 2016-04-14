@@ -19,3 +19,7 @@ design général
 >https://www.mantalos.gr/
 
 agencement de la page, animation pas top top
+
+>http://www.infinitythemes.ge/aden-blog/
+
+design général, sauf pour le slider
