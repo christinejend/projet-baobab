@@ -1,0 +1,32 @@
+/*Paths - color
+$background-color : #FFFFFF*/
+/*Base/background*/
+
+
+/* Objects/heade
+
+ /*MAIN/*/
+
+ /* LAST */
+
+
+
+
+/*FOOTER*/
+footer{
+	background-color: #B22E00;
+	margin-top: 2rem;
+	height: 6rem;
+	width: 100%;
+	color: #FFD6AB;
+}
+.footer__link{
+	color: #FFD6AB;
+}
+ul{
+	display: inline-block;
+	margin-left: 15rem;
+}
+.link{
+	text-decoration: none;
+}

@@ -1,0 +1,32 @@
+/* Baobab
+	Chris J.
+ * _bloc.css Objects
+ * started at 25/04/2016
+ */
+.bloc{
+	display: inline-block;
+	width: 44%;
+	
+	
+	&__heading{
+	padding-top: 4.5rem ;
+	padding-bottom: 1.5rem;
+
+	}
+	&__headingTwo{
+	margin-left: 2rem;
+	}
+	&__right{
+		margin-left: 2rem;
+	}
+	&__right2{
+	margin-left: 2rem;
+	}
+	&__text{
+	padding: 1.5rem 2.2rem 3rem;
+	}
+ 	&__link{
+	margin-left: 3rem;
+	padding-top: 1rem;
+	}
+}

@@ -1,0 +1,30 @@
+/* Baobab
+	Chris J.
+ * last - Components
+ * started at 25/04/2016
+ */
+
+.last{
+	&__news{
+ 	background-color: #FFFFFF;
+ 	padding: 2rem;
+ 	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+ }
+    &__heading2{
+	color: #E76907;
+	font-size: 1.4rem;
+	padding-bottom: 1.5rem;
+ }
+ 	&__text{
+ 	padding-bottom: 0.5rem;
+ 	}
+    &__heading{
+ 	padding-bottom: 1.5rem;
+ 	margin-left: 25.5rem;
+ 	font-size: 1.7rem;
+ }
+ 	&__link{
+ 		color: #E7693F;
+ 	margin-left: 16rem;
+ 	}
+}

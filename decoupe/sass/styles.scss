@@ -1,0 +1,44 @@
+/* Baobab
+	Chris J.
+ * styles.css - main stylesheet
+ * started at 25/04/2016
+ */
+
+ //1. Settings - variables globales
+@import "settings/colors";
+
+ //2. Tools - Mixing globauc, functions & outils
+@import "tools/utils";
+
+ //3. Generic - Style de remise a zero (reset,normalize..)
+@import "generic/meyer-reset";
+@import "generic/box-sizing";
+
+ //4. Base - Elements brutes
+ @import "base/root";
+
+ //5. Objects - Elements de mise en forme non-cosmétique - taille et position
+ @import "objects/header.first";
+ @import "objects/header.second";
+ @import "objects/header.searchbar";
+ @import "objects/header.champs";
+ @import "objects/main.last";
+ @import "objects/main.bloc";
+ @import "objects/bottom";
+ @import "objects/main.projects";
+ @import "objects/main.evenement";
+
+ //6. Components - Design des composants, morceaux d'UI
+@import "components/header.first";
+@import "components/header.second";
+@import "components/main";
+@import "components/main.last";
+@import "components/main.bloc";
+@import "components/bottom";
+@import "components/header.banniere";
+
+ //7. Trumps - Styles spécifiques
+@import "trumps/boutton";
+@import "trumps/linkNext";
+
+ // ----- TMP

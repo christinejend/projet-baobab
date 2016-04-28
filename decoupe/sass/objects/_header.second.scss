@@ -1,0 +1,24 @@
+/* Baobab
+	Chris J.
+ * header-second.css Objects
+ * started at 25/04/2016
+ */
+ .second{
+ 	&__elt{
+	display: inline-block;
+ 	}
+ 	&__menu{
+ 	text-align: center;
+ 	padding-top: 4.5rem;
+ 	padding-bottom: 2rem;
+ 	margin-right: -5rem;
+ 	font-size: 1.3rem;
+
+ 	}
+  &__elt-second	{
+ 	padding-left: 5.5rem;
+ 	}
+
+
+
+ }

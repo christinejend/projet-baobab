@@ -1,0 +1,361 @@
+/* Baobab
+	Chris J.
+ * styles.css - main stylesheet
+ * started at 25/04/2016
+ */
+/* Baobab
+	Chris J.
+ * styles.css - main stylesheet
+ * started at 25/04/2016
+ */
+.hidden {
+  display: none; }
+
+/* Baobab
+	Chris J.
+ * styles.css - main stylesheet
+ * started at 25/04/2016
+ */
+/* Eric Meyer */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Baobab
+	Chris J.
+ * styles.css - main stylesheet
+ * started at 25/04/2016
+ */
+/* box-sizing reset */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+/* Baobab
+	Chris J.
+ * root.scss Base
+ * started at 25/04/2016
+ */
+body {
+  /*background-image: url("../img/grille.svg");
+	background: cover;*/
+  background: linear-gradient(130deg, #FFA445, white);
+  color: #2D2D2C;
+  font: 1rem/1.2rem 'lucida sans', 'trebuchet MS', 'Tahoma'; }
+
+.link {
+  text-decoration: none; }
+
+/* Baobab
+	Chris J.
+ * header.css Objects
+ * started at 25/04/2016
+ */
+.first__elt {
+  display: inline-block; }
+
+.first__menu {
+  text-align: center;
+  margin-left: -18rem;
+  margin-top: 2.5rem; }
+
+.first__elt-first {
+  padding: 0.5rem;
+  width: 9rem; }
+
+.first__elt-one {
+  margin-right: 6rem; }
+
+.first__link {
+  color: black; }
+
+/* Baobab
+	Chris J.
+ * header-second.css Objects
+ * started at 25/04/2016
+ */
+.second__elt {
+  display: inline-block; }
+
+.second__menu {
+  text-align: center;
+  padding-top: 4.5rem;
+  padding-bottom: 2rem;
+  margin-right: -5rem;
+  font-size: 1.3rem; }
+
+.second__elt-second {
+  padding-left: 5.5rem; }
+
+/* Baobab
+	Chris J.
+ * header-second.css Components
+ * started at 25/04/2016
+ */
+.searchbar {
+  margin-left: 54rem;
+  margin-top: -1.9rem;
+  z-index: 50; }
+
+/* Baobab
+	Chris J.
+ * _champ.css Objects
+ * started at 25/04/2016
+ */
+.champ {
+  height: 1.8rem;
+  width: 12rem; }
+
+/* Baobab
+	Chris J.
+ * _main.last.css Objects
+ * started at 25/04/2016
+ */
+.last__news {
+  margin: 0 auto;
+  width: 704px; }
+
+.last__heading {
+  padding-bottom: 1.5rem;
+  margin-left: 10rem;
+  font-size: 1.6rem; }
+
+/* Baobab
+	Chris J.
+ * _bloc.css Objects
+ * started at 25/04/2016
+ */
+.bloc {
+  display: inline-block;
+  width: 44%; }
+  .bloc__heading {
+    padding-top: 4.5rem;
+    padding-bottom: 1.5rem; }
+  .bloc__headingTwo {
+    margin-left: 2rem; }
+  .bloc__right {
+    margin-left: 2rem; }
+  .bloc__right2 {
+    margin-left: 2rem; }
+  .bloc__text {
+    padding: 1.5rem 2.2rem 3rem; }
+  .bloc__link {
+    margin-left: 3rem;
+    padding-top: 1rem; }
+
+/* Baobab
+	Chris J.
+ * _bottom.css Objects
+ * started at 25/04/2016
+ */
+.bottom {
+  padding-top: 1em;
+  font-size: 1rem; }
+  .bottom__nav {
+    display: inline-block;
+    text-align: center;
+    margin-left: 16rem;
+    padding: 2rem 0 2rem 0; }
+
+.projets {
+  width: 38%;
+  margin-left: 10rem; }
+
+.evenement {
+  position: absolute;
+  width: 38%;
+  top: 58.5rem;
+  left: 50rem; }
+
+.th {
+  margin-bottom: 4rem; }
+
+/* Baobab
+	Chris J.
+ * header.css  Components
+ * started at 25/04/2016
+ */
+.first__elt {
+  background-color: #C73A3A;
+  border-radius: 5rem;
+  box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5); }
+
+.first__link {
+  color: white; }
+
+/* Baobab
+	Chris J.
+ * header-second.css Components
+ * started at 25/04/2016
+ */
+.second__link {
+  color: black;
+  text-shadow: 1px 2px 2px #eee;
+  padding-right: 5rem; }
+
+/* Baobab
+	Chris J.
+ * main.scss Components
+ * started at 25/04/2016
+ */
+.main__img {
+  padding-bottom: 3.5rem;
+  margin-left: -3rem; }
+
+.main__logo {
+  position: absolute;
+  left: 40rem;
+  top: 15rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5rem; }
+
+/* Baobab
+	Chris J.
+ * last - Components
+ * started at 25/04/2016
+ */
+.last__news {
+  background-color: #FFFFFF;
+  padding: 2rem;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); }
+
+.last__heading2 {
+  color: #E76907;
+  font-size: 1.4rem;
+  padding-bottom: 1.5rem; }
+
+.last__text {
+  padding-bottom: 0.5rem; }
+
+.last__heading {
+  padding-bottom: 1.5rem;
+  margin-left: 25.5rem;
+  font-size: 1.7rem; }
+
+.last__link {
+  color: #E7693F;
+  margin-left: 16rem; }
+
+/* Baobab
+	Chris J.
+ * _bloc.css Objects
+ * started at 25/04/2016
+ */
+.bloc {
+  background-color: #FFFFFF;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); }
+  .bloc__heading {
+    font-size: 1.5rem; }
+  .bloc__headingTwo {
+    color: #E76907;
+    font-size: 1.4rem;
+    padding-top: 1rem; }
+
+/* Baobab
+	Chris J.
+ * _bottom.css Components
+ * started at 25/04/2016
+ */
+.bottom {
+  background-color: #B22E00;
+  color: #FFD6AB; }
+  .bottom__link {
+    color: #FFD6AB; }
+
+/* Baobab
+	Chris J.
+ * Bannniere - Components
+ * started at 25/04/2016
+ */
+.banniere {
+  background-image: url(../../../grille.svg);
+  background-color: red;
+  height: 28rem;
+  margin-bottom: 2.5rem; }
+
+.main__image {
+  height: 41rem;
+  width: 95rem;
+  float: left;
+  margin-top: -12.5rem;
+  z-index: 1; }
+
+/* Baobab
+	Chris J.
+ * Boutton.css - Trumps
+ * started at 25/04/2016
+ */
+.bouton {
+  background: #d83c3c;
+  background-size: 25px 25px;
+  width: 5.5rem;
+  height: 1.8rem;
+  overflow: visible;
+  border: 0;
+  cursor: pointer;
+  border-radius: 0 3px 3px 0;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+  color: white; }
+
+/* Baobab
+	Chris J.
+ * _linkNext.css Trumps
+ * started at 25/04/2016
+ */
+.linkNext {
+  color: #E7693F;
+  margin-left: 2rem;
+  position: relative;
+  top: -2rem;
+  left: 2rem; }
+
+/*# sourceMappingURL=styles.css.map */

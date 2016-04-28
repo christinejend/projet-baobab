@@ -1,0 +1,19 @@
+
+/* Baobab
+	Chris J.
+ * _bloc.css Objects
+ * started at 25/04/2016
+ */
+
+.bloc{
+	background-color: #FFFFFF;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+	&__heading{
+	font-size: 1.5rem;
+	}
+    &__headingTwo{
+	color: #E76907;
+	font-size: 1.4rem;
+	padding-top: 1rem;
+	}
+}

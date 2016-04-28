@@ -1,0 +1,25 @@
+/* Baobab
+	Chris J.
+ * header.css Objects
+ * started at 25/04/2016
+ */
+ .first{
+ 	&__elt{
+ 		display: inline-block;
+ 	}
+ 	&__menu{
+ 	text-align: center;
+ 	margin-left: -18rem;
+ 	margin-top: 2.5rem;
+ 	}
+ 	&__elt-first{
+ 	padding: 0.5rem;
+ 	width: 9rem;
+ 	}
+ 	&__elt-one{
+ 	margin-right: 6rem;
+ 	}
+	&__link{
+	color: black;
+	}
+}
