@@ -4,10 +4,11 @@
  * started at 25/04/2016
  */
   .banniere{
-  	background-image: url(../../../grille.svg);
-  	background-color: red ;
-    height: 28rem;
-    margin-bottom: 2.5rem;
+  height: 42rem;
+    &__logo{
+   	background-image: url(../img/logo.svg);
+  	background-size: 250px 244px;
+    }
 }
 .main__image{
 	height:41rem;

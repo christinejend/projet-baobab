@@ -2,27 +2,28 @@
 <html lang="fr">
 <head>
 	<meta charset="utf-8">
+	<title>Accueil</title>
 	<meta name="baobab" content="Description" author="Christine Jend">
 	<link rel="stylesheet" href="css/styles.css" type="text/css">
-	<title>Accueil</title>
 </head>
 <body>
-	<header>
+	<header class="header">
 
 		<nav class="first">
+			<h1 role="heading" aria-level="1" class="hidden">Menu  Supp.</h1>
 			<ul  class="first__menu">
 				<li class="first__elt first__elt-first first__elt-one"><a href="" title="" class="first__link link">Contact</a></li>
 				<li class="first__elt first__elt-first"><a href="" title="" class="first__link link">Soutenez-nous !</a></li>
 			</ul>
 		</nav>
 		<div class="searchbar">   
-                <form action="" class="formulaire">
-               <input class="champ" type="text"  placeholder="Que recherchez-vous?"/>
-                    <input class="bouton" type="button" value="Rechercher" />
-                     
-                </form>
+            <form action="" class="formulaire">
+                <input class="champ" type="text"  placeholder="Que recherchez-vous?"/>
+                <input class="bouton" type="button" value="Rechercher" />
+            </form>
         </div>
 		<nav class="second">
+			<h1 role="heading" aria-level="1" class="hidden">Menu Dessous</h1>
 			<ul class="second__menu">
 				<li class="second__elt first__elt-second"><a href="" title="" class="second__link link icon-propos">A propos</a></li>
 				<li class="second__elt first__elt-second"><a href="" title="" class="second__link link  icon-calen">Actualités</a></li>
@@ -32,68 +33,75 @@
 			</ul>
 		</nav>
 		<div class="banniere">
-		<img src="img/t02.jpg" alt="" class="main__image">
-		<img src="img/logo.svg" alt="" class="main__logo" width="250" height="244">
+			<span class="banniere__logo"> </span>
 		</div>
 	</header>
-	<div class="main">
+	<main class="main">
+		<h1 role="heading" aria-level="1" class="hidden">Baobab</h1>
 		<div class="last">
-		<h1 role="heading" aria-level="1" class="last__heading">Dernière nouvelles</h1>
-		<div class="last__news">
-			<h2 role="heading" aria-level="2" class="last__heading2">Safidin’i Pela sélectionné au VAFI 7th JUNIOR en Croatie</h2>
-			<p class="last__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum soluta aperiam repudiandae saepe sapiente omnis facilis iure laborum quas provident, ratione blanditiis, fugit voluptates obcaecati excepturi reiciendis laboriosam nostrum. Deserunt.</p>
-			<a href="" title="" class="last__link">Lire la suite</a>
+			<h2 role="heading" aria-level="1" class="last__heading">Dernière nouvelles</h1>
+			<div class="last__news">
+				<h3 role="heading" aria-level="2" class="last__heading2">Safidin’i Pela sélectionné au VAFI 7th JUNIOR en Croatie</h2>
+				<p class="last__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum soluta aperiam repudiandae saepe sapiente omnis facilis iure laborum quas provident, ratione blanditiis, fugit voluptates obcaecati excepturi reiciendis laboriosam nostrum. Deserunt.</p>
+				<a href="" title="" class="last__link">Lire la suite</a>
+			</div>
 		</div>
-	</div>
-	<div class="th">	
-		<div class="projets">
-				<h1 role="heading" aria-level="1" class="bloc__heading">Nos derniers blocs</h1>
-				<div class="bloc">
-					<img src="https://placekitten.com/257/180" class="bloc__img" width="257" height="180">
-					<h2 role="heading" aria-level="2" class="bloc__headingTwo">Projet 1</h2>
-					<p class="bloc__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit aperiam dignissimos odit natus at, recusandae, minima dolorum inventore vitae voluptas quidem expedita eius! Non, omnis, laboriosam. Obcaecati impedit hic accusantium.
-					</p>
-					<a href="" class="linkNext">Voir le projet</a>
-				</div>
+		<div class="th colonnes">	
+			<div class="projets">
+				<h2 role="heading" aria-level="1" class="bloc__heading">Nos derniers blocs</h2>
+					<div class="bloc">
+						<img src="https://placekitten.com/257/180" class="bloc__img">
+						<h3 role="heading" aria-level="2" class="bloc__headingTwo">Projet 1</h3>
+						<p class="bloc__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit aperiam dignissimos odit natus at, recusandae, minima dolorum inventore vitae voluptas quidem expedita eius! Non, omnis, laboriosam. Obcaecati impedit hic accusantium.
+						</p>
+						<a href="" class="linkNext">Voir le projet</a>
+					</div>
 				<div class="bloc bloc__right">
-					<img src="https://placekitten.com/257/180" class="bloc__img" width="257" height="180">
-					<h2 role="heading" aria-level="2" class="bloc__headingTwo">Projet 2</h2>
+					<img src="https://placekitten.com/257/180" class="bloc__img">
+					<h3 role="heading" aria-level="2" class="bloc__headingTwo">Projet 2</h3>
 					<p class="bloc__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit aperiam dignissimos odit natus at, recusandae, minima dolorum inventore vitae voluptas quidem expedita eius! Non, omnis, laboriosam. Obcaecati impedit hic accusantium.
 					</p>
 					<a href="" class="linkNext">Voir le projet</a>
 				</div>
-		</div>
-		<div class="evenement">
-			<h1 role="heading" aria-level="1" class="bloc__heading">Nos derniers événements</h1>
-			<div class="bloc evenementOne">
-				<img src="https://placekitten.com/257/180" class="bloc__img" width="257" height="180">
-				<h2 role="heading" aria-level="2" class="bloc__headingTwo">Evénement 1</h2>
-				<p class="bloc__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit aperiam dignissimos odit natus at, recusandae, minima dolorum inventore vitae voluptas quidem expedita eius! Non, omnis, laboriosam. Obcaecati impedit hic accusantium.
-				</p>
-				<a href="" class="linkNext">Voir l'événement</a>
 			</div>
-			<div class="bloc bloc__right2">
-				<img src="https://placekitten.com/257/180" class="bloc__img" width="257" height="180">
-				<h2 role="heading" aria-level="2" class="bloc__headingTwo">Evénement 2</h2>
-				<p class="bloc__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit aperiam dignissimos odit natus at, recusandae, minima dolorum inventore vitae voluptas quidem expedita eius! Non, omnis, laboriosam. Obcaecati impedit hic accusantium.
-				</p>
-				<a href="" class="linkNext">Voir l'événement</a>
+				<div class="evenement">
+					<h2 role="heading" aria-level="1" class="bloc__heading evenement__heading">Nos derniers événements</h2>
+				<div class="bloc evenementOne">
+					<img src="https://placekitten.com/257/180" class="bloc__img">
+					<h3 role="heading" aria-level="2" class="bloc__headingTwo">Evénement 1</h3>
+					<p class="bloc__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit aperiam dignissimos odit natus at, recusandae, minima dolorum inventore vitae voluptas quidem expedita eius! Non, omnis, laboriosam. Obcaecati impedit hic accusantium.
+					</p>
+					<a href="" class="linkNext">Voir l'événement</a>
+				</div>
+				<div class="bloc bloc__right2">
+					<img src="https://placekitten.com/257/180" class="bloc__img">
+					<h3 role="heading" aria-level="2" class="bloc__headingTwo">Evénement 2</h3>
+					<p class="bloc__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit aperiam dignissimos odit natus at, recusandae, minima dolorum inventore vitae voluptas quidem expedita eius! Non, omnis, laboriosam. Obcaecati impedit hic accusantium.
+					</p>
+					<a href="" class="linkNext">Voir l'événement</a>
+				</div>
 			</div>
 		</div>
-	</div>
 	</div>
 	<footer class="bottom">
 		<nav>
+			<h2 role="heading" aria-level="1" class="hidden">Pieds de page</h2>
 			<ul class="bottom__nav border" >
 				<li class="bottom__elt"><a href="" title="" class="bottom__link link gsm">+32 497 36 39 75</li></a>
 				<li class="bottom__elt"><a href="" title="" class="bottom__link link whats">+32 495 34 89 66</li></a>
 	
 				<li class="bottom__elt -email"><a href="" title="" class="bottom__link link email">surunbaobab@gmail.com</li></a>
-			</ul>
-			<ul class="bottom__nav border">
+
 				<li class="bottom__elt"><a href="" title="" class="bottom__link link contact">Nous contactez</a></li>
 				<li class="bottom__elt"><a href="" title="" class="bottom__link link soutiens">Nous soutenir</a></li>
 			</ul>
+			<div class="qui">
+				<h3 role="heading" aria-level="3" class="qui__title">Qui sommes-nous?</h3>	
+				<p class="qui__text">En se rencontrant à Liège, nous avons François et moi, décidé de se lancer dans un projet à Madagascar en combinant nos passions communes pour l'éducation, le développement local et le cinéma d'animation. En 2015, ce projet de neuf mois nous a permis de parcourir la grande île rouge de Majunga à Tuléar en passant par Antananarivo en s'arrêtant à Fianarantsoa. Au fil de nos nombreuses rencontres nous avons eu l'opportunité de mettre en place des ateliers avec des jeunes de Tuléar.
+				Forts de ces expériences, nous préparons actuellement de prochains projets qui se dessinent pour 2016.
+				<br>
+				Elena</p>
+			</div>
 		</nav>
 	</footer>
 </body>

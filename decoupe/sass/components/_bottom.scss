@@ -6,9 +6,12 @@
  .bottom{
 	background-color: #B22E00;
 	color: #FFD6AB;
+
 	&__link{
 	color: #FFD6AB;
 	}
 	&__nav{
+		text-align: right;
+		border-right: 1px solid #FFD6AB;
 	}
  }

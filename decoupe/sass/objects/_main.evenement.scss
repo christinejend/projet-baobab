@@ -1,8 +1,11 @@
 .evenement{
 	position: absolute;
-	width: 38%;
-	top: 58.5rem;
+	width: 43%;
+	top: 70.7rem;
 	left: 50rem;
+	&__heading{
+		margin-left: 4rem;
+	}
 }
 .th{
  	margin-bottom: 4rem;

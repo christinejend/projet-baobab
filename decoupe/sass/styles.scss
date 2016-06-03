@@ -27,6 +27,7 @@
  @import "objects/bottom";
  @import "objects/main.projects";
  @import "objects/main.evenement";
+  @import "objects/footer.nav";
 
  //6. Components - Design des composants, morceaux d'UI
 @import "components/header.first";
@@ -35,7 +36,9 @@
 @import "components/main.last";
 @import "components/main.bloc";
 @import "components/bottom";
+@import "components/header";
 @import "components/header.banniere";
+@import "components/footer.qui";
 
  //7. Trumps - Styles spécifiques
 @import "trumps/boutton";

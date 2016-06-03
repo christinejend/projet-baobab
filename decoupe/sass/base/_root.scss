@@ -11,6 +11,13 @@ body{
 	background: linear-gradient(130deg,#FFA445, white);
 	color: #2D2D2C;
 	font: 1rem/1.2rem 'lucida sans', 'trebuchet MS', 'Tahoma';
+    background: url(../img/t02.jpg) no-repeat;
+    background-size: 95rem  46rem;
+    background-position: 0rem 0rem;
+    height: 50rem;
+    z-index: 1;
+
+    margin-bottom: 2.5rem;
 }
 .link{
 	text-decoration : none;

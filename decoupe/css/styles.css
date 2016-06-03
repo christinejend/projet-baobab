@@ -91,7 +91,13 @@ body {
 	background: cover;*/
   background: linear-gradient(130deg, #FFA445, white);
   color: #2D2D2C;
-  font: 1rem/1.2rem 'lucida sans', 'trebuchet MS', 'Tahoma'; }
+  font: 1rem/1.2rem 'lucida sans', 'trebuchet MS', 'Tahoma';
+  background: url(../img/t02.jpg) no-repeat;
+  background-size: 95rem  46rem;
+  background-position: 0rem 0rem;
+  height: 50rem;
+  z-index: 1;
+  margin-bottom: 2.5rem; }
 
 .link {
   text-decoration: none; }
@@ -169,13 +175,8 @@ body {
  * started at 25/04/2016
  */
 .last__news {
-  margin: 0 auto;
-  width: 704px; }
-
-.last__heading {
-  padding-bottom: 1.5rem;
-  margin-left: 10rem;
-  font-size: 1.6rem; }
+  margin: 0 26.3rem;
+  width: 45.6%; }
 
 /* Baobab
 	Chris J.
@@ -184,21 +185,28 @@ body {
  */
 .bloc {
   display: inline-block;
-  width: 44%; }
+  width: 39%; }
   .bloc__heading {
+    margin-left: 1rem;
     padding-top: 4.5rem;
     padding-bottom: 1.5rem; }
   .bloc__headingTwo {
     margin-left: 2rem; }
   .bloc__right {
-    margin-left: 2rem; }
+    margin-left: 4.8rem; }
   .bloc__right2 {
-    margin-left: 2rem; }
+    margin-left: 2.2rem; }
   .bloc__text {
-    padding: 1.5rem 2.2rem 3rem; }
+    padding: 1.5rem 2.2rem 3rem;
+    font-size: 0.8rem; }
   .bloc__link {
     margin-left: 3rem;
     padding-top: 1rem; }
+  .bloc__img {
+    width: 100%; }
+
+.evenementOne {
+  margin-left: 4rem; }
 
 /* Baobab
 	Chris J.
@@ -215,22 +223,30 @@ body {
     padding: 2rem 0 2rem 0; }
   .bottom__elt {
     padding-bottom: 1rem; }
+  .bottom__link {
+    padding: 1rem; }
 
-.-email {
+.email {
   margin-left: 1rem; }
 
 .projets {
-  width: 38%;
-  margin-left: 10rem; }
+  width: 43%;
+  margin-left: 6.3rem; }
 
 .evenement {
   position: absolute;
-  width: 38%;
-  top: 58.5rem;
+  width: 43%;
+  top: 70.7rem;
   left: 50rem; }
+  .evenement__heading {
+    margin-left: 4rem; }
 
 .th {
   margin-bottom: 4rem; }
+
+.nav {
+  float: right;
+  margin-top: -20rem; }
 
 /* Baobab
 	Chris J.
@@ -250,10 +266,12 @@ body {
  * header-second.css Components
  * started at 25/04/2016
  */
-.second__link {
-  color: black;
-  text-shadow: 1px 2px 2px #eee;
-  padding-right: 5rem; }
+.second {
+  z-index: 80; }
+  .second__link {
+    color: black;
+    text-shadow: 1px 2px 2px #eee;
+    padding-right: 5rem; }
 
 /* Baobab
 	Chris J.
@@ -291,7 +309,7 @@ body {
 
 .last__heading {
   padding-bottom: 1.5rem;
-  margin-left: 25.5rem;
+  margin-left: 27.5rem;
   font-size: 1.7rem; }
 
 .last__link {
@@ -323,6 +341,9 @@ body {
   color: #FFD6AB; }
   .bottom__link {
     color: #FFD6AB; }
+  .bottom__nav {
+    text-align: right;
+    border-right: 1px solid #FFD6AB; }
 
 /* Baobab
 	Chris J.
@@ -330,10 +351,10 @@ body {
  * started at 25/04/2016
  */
 .banniere {
-  background-image: url(../../../grille.svg);
-  background-color: red;
-  height: 28rem;
-  margin-bottom: 2.5rem; }
+  height: 42rem; }
+  .banniere__logo {
+    background-image: url(../img/logo.svg);
+    background-size: 250px 244px; }
 
 .main__image {
   height: 41rem;
@@ -341,6 +362,10 @@ body {
   float: left;
   margin-top: -12.5rem;
   z-index: 1; }
+
+.qui {
+  width: 40%;
+  margin-right: 3rem; }
 
 /* Baobab
 	Chris J.
@@ -373,7 +398,8 @@ body {
 
 .gsm:before {
   font-size: 2rem;
-  content: "  "; }
+  content: "  ";
+  padding-right: 3rem; }
 
 .email:before {
   font-size: 1.5rem;
@@ -382,15 +408,18 @@ body {
 
 .whats:before {
   font-size: 2rem;
-  content: "  "; }
+  content: "  ";
+  padding-right: 3rem; }
 
 .contact:before {
   font-size: 2rem;
-  content: "  "; }
+  content: "  ";
+  padding-right: 4.5rem; }
 
 .soutiens:before {
   font-size: 2rem;
-  content: "   "; }
+  content: "   ";
+  padding-right: 4.9rem; }
 
 .icon-propos:before {
   content: "   ";
